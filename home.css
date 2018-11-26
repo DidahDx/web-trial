@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+}
+
+#hbar h1{
+   
+    height:45px;
+	  display:block;
+    background-color:#3366CC;
+    margin:0;
+    text-align: center;
+    padding:12px;
+     box-sizing:border-box;
+     font-weight: bold;
+     font-size: 17px;
+    color:black;
+     width: 100%;
+
+    }
+ 
+ .navigation-hbar{
+  background-color: black;
+  width:100%;
+  margin: 0%;
+ }
+
+.navigation-hbar ul{
+list-style-type: none;
+width: 100%;
+margin: 0;
+padding: 0;
+overflow:hidden;
+background-color:black;
+color:white;
+}
+
+.navigation-hbar li{
+  float:left;
+ 
+ }
+
+.navigation-hbar ul li a{
+  margin-right: 5px;
+  padding: 15px;
+display: inline-block;
+height: 20px;
+font-weight:bold;
+color:white;
+list-style-type: none;
+ text-decoration: none;
+ }
+
+.navigation-hbar ul li a:hover{
+
+  background:linear-gradient(skyblue,black);
+ border-top: 2px solid white;
+ height: 18px;
+}
+
+#Search{
+  float: right;
+  padding: 15px  30px;
+  font-weight: bold;
+}
+
+#Search Button{
+  background:linear-gradient(skyblue, black);
+  border:none;
+  color:white;
+  padding: 5px 12px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+#Search Button:hover{
+  background-color: skyblue;
+  border-bottom:1px solid #00CCFF;
+  height: 25px;
+
+}
+
+#icon-nav a:hover {
+border-top: 2px solid white;
+background:linear-gradient(skyblue,black);
+color:white;
+}
+
+#icon-nav  a>div:hover{
+  background-color: skyblue;
+  color:skyblue;
+}
+
+#icon-nav div{
+  width:25px;
+  height: 3px;
+  margin: 3px;
+  background-color: white; 
+}

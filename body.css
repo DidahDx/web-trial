@@ -1,0 +1,45 @@
+
+#body{
+width: 100%;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+
+}
+
+
+#main-body {
+	height:100%;	
+width: 77%;
+float: left;
+background-color: red;
+ transition: 0.5s;
+ display: block;
+}
+
+#adverts{
+    height:100%;
+    width:23% ;
+	float: left;
+	background-color: grey;
+	transition: 0.5s;
+	display:block;
+
+
+}
+#footer{
+
+	float: left;
+}
+
+p{
+	max-width:95%;
+	min-width: 60%;
+	margin: 15px auto 0 auto;
+}
+
+#adverts p{
+
+	padding: 15px;
+	
+}
